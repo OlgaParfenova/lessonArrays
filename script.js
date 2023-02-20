@@ -29,3 +29,23 @@
 // }
 //
 // console.log(toStrWithPlus(arr));
+
+// task 4
+//
+// let anyArr = ['rb', 'nl', 5, 9, 'hos', true, null];
+//
+// function findArrLength (arr) {
+//     return arr.length;
+// }
+//
+// console.log(findArrLength(anyArr));
+
+//task 5
+
+// let someArr = [false, 8, 'naff', true, null, 3, 'doc'];
+//
+// function findLastElem(arr) {
+//     console.log(arr[arr.length - 1]);
+// }
+//
+// findLastElem(someArr);
