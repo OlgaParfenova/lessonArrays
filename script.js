@@ -81,3 +81,47 @@
 // }
 //
 // console.log(increaseArr(array));
+
+// task 9
+//
+// let arr = [1, 2, 3];
+//
+// arr[3] = 4;
+// arr[4] = 5;
+//
+// console.log(arr);
+
+// task 10
+
+// let arr = [];
+//
+// arr[3] = 'a';
+// arr[8] = 'b';
+//
+// console.log(arr.length);
+
+// task 11
+
+// let arr = [];
+//
+// const fillArr = (arr) => {
+//     for (let i = 1; i <= 3; i++) {
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+//
+// console.log(fillArr(arr));
+
+// task 12
+
+// let arr = [1, 2, 3];
+//
+// const fillArr = (arr) => {
+//     for (let i = 4; i <= 5; i++) {
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+//
+// console.log(fillArr(arr));
