@@ -125,3 +125,46 @@
 // }
 //
 // console.log(fillArr(arr));
+
+// task 13
+
+// let arr = ['a', 'b', 'c'];
+// let key = 2;
+// console.log(arr[key]);
+
+// task 14
+
+// let arr = [1, 2, 3, 4, 5];
+//
+// let key1 = 1;
+// let key2 = 2;
+//
+// console.log(arr[key1] + arr[key2]);
+
+// task 15
+
+// let arr = ['a', 'b', 'c', 'd', 'e'];
+//
+// delete arr[2];
+// delete arr[3];
+//
+// console.log(arr);
+// console.log(arr.length);
+
+// task 16
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[arr.length - 1]);
+
+// task 17
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[0] + arr[1] + arr[2] + arr[3] + arr[4]);
+
+//task 18
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
+
+// task 19
+
