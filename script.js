@@ -168,3 +168,421 @@
 
 // task 19
 
+// let arr = [
+//     ['a', 'b', 'c'],
+//     ['d', 'e', 'f'],
+//     ['g', 'h', 'i'],
+//     ['j', 'k', 'l'],
+// ];
+//
+// console.log(arr[3][2]);
+// console.log(arr[1][1]);
+// console.log(arr[2][0]);
+// console.log(arr[0][0]);
+
+// task 20
+
+// let arr = [[1, 2], [3, 4], [5, 6]];
+//
+// console.log(arr[0][0] + arr[0][1] + arr[1][0] + arr[1][1] + arr[2][0] + arr[2][1]);
+
+// task 21
+
+// let arr = [
+//     [
+//         [1, 2],
+//         [3, 4],
+//     ],
+//     [
+//         [5, 6],
+//         [7, 8],
+//     ],
+// ];
+//
+// console.log(arr[0][0][0] + arr[0][0][1] + arr[0][1][0] + arr[0][1][1] + arr[1][0][0] + arr[1][0][1] + arr[1][1][0] + arr[1][1][1]);
+
+// task 22
+
+// let arr = [[1, 2, 3, [4, 5, [6, 7]]], [8, [9, 10]]];
+//
+// console.log(arr[0][0] + arr[0][1] + arr[0][2] + arr[0][3][0] + arr[0][3][1] + arr[0][3][2][0] + arr[0][3][2][1]
+//     + arr[1][0] + arr[1][1][0] + arr[1][1][1]);
+
+// task 23
+
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
+//
+// for (let subArr of arr) {
+//     for (let elem of subArr) {
+//         sum += elem;
+//     }
+// }
+//
+// console.log(sum);
+
+// task 24
+
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+// let sum = 0;
+//
+// for (let subArr of arr) {
+//     for (let subSubArr of subArr) {
+//         for (let elem of subSubArr) {
+//             sum += elem;
+//         }
+//     }
+// }
+//
+// console.log(sum);
+
+// task 25
+
+// let arr = [[1, 2, 3], [4, 5], [6]];
+// let sum = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         sum += arr[i][j];
+//     }
+// }
+//
+// console.log(sum);
+
+// task 26
+
+// let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+// let sum = 0;
+//
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         for (let k = 0; k < arr[i][j].length; k++) {
+//             sum += arr[i][j][k];
+//         }
+//     }
+// }
+//
+// console.log(sum);
+
+// task 27
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 5; j++) {
+//         arr[i].push(j + 1);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 28
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 4; j++) {
+//         arr[i].push('x');
+//     }
+// }
+//
+// console.log(arr);
+
+// task 29
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 2; j++) {
+//         arr[i][j] = [];
+//
+//         for (let k = 0; k < 5; k++){
+//             arr[i][j].push(k + 1);
+//         }
+//     }
+// }
+//
+// console.log(arr);
+
+// task 30
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 31
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 32
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 33
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 34
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 35
+
+// let arr = [];
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 1; j <= 5; j++) {
+//         arr[i].push(j);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 36
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 4; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 2; j++) {
+//         arr[i].push(k++);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 37
+
+// let arr = [];
+//
+// for (let i = 0, k = 0; i < 4; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i].push(k += 2);
+//     }
+// }
+//
+// console.log(arr);
+
+// task 38
+
+// let arr = [];
+//
+// for (let i = 0, c = 1; i < 2; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 2; j++) {
+//         arr[i][j] = [];
+//
+//         for (let k = 0; k < 2; k++) {
+//             arr[i][j].push(c++);
+//         }
+//     }
+// }
+//
+// console.log(arr);
+
+// task 39
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 40
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 41
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 42
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 43
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 44
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 45
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 46
+
+// let arr = [];
+//
+// for (let i = 0, k = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = ++k;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 47
+
+// let arr = [];
+// let k = 1;
+//
+// for (let i = 0; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k;
+//         k++;
+//     }
+// }
+//
+// console.log(arr);
+
+// task 48
+
+// let arr = [];
+//
+// for (let i = 0, k = 1; i < 3; i++) {
+//     arr[i] = [];
+//
+//     for (let j = 0; j < 3; j++) {
+//         arr[i][j] = k++;
+//     }
+// }
+//
+// console.log(arr);
